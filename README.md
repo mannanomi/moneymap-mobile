@@ -1,6 +1,6 @@
 # MoneyMap (mobile)
 
-Native iPhone and Android personal finance tracker — the React Native companion to the [self-hosted MoneyMap web app](https://github.com/mannanomi/Expense-Tracker).
+Native iPhone and Android personal finance tracker — the React Native companion to the self-hosted MoneyMap web app.
 
 All data lives **on the phone** in app-private storage. No server, no account, no network calls — it works entirely offline, and a `.bak` copy is written on every save.
 
