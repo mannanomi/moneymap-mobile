@@ -1,25 +1,41 @@
 {
   "expo": {
-    "name": "moneymap-mobile",
-    "slug": "moneymap-mobile",
+    "name": "MoneyMap",
+    "slug": "moneymap",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "automatic",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mannanomi.moneymap"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#0d1424",
         "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundImage": "./assets/android-icon-background.png"
       },
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.mannanomi.moneymap"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/favicon.png",
+      "name": "MoneyMap",
+      "shortName": "MoneyMap",
+      "backgroundColor": "#0A0E16",
+      "themeColor": "#0A0E16"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-sharing",
+      "@react-native-community/datetimepicker"
+    ],
+    "scheme": "moneymap",
+    "experiments": {
+      "typedRoutes": true
     }
   }
 }
